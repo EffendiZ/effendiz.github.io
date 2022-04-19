@@ -203,27 +203,16 @@ We&rsquo;ll start with creating a new site with a very basic template.
 
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/shortcodes/">Shortcodes</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/js-flowchart-diagrams/">JS Flowchart Diagrams</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2016-08-30 </span>
-      <div class="post-category">
-          <a href="/categories/shortcodes/"> shortcodes </a>
-          </div>
+      <span class="post-time"> 2015-03-04 </span>
+      
     </div>
   </header>
   
   <div class="post-content">
     <div class="post-summary">
-      <h1 id="admonition">Admonition</h1>
-<div class="admonition note"><p class="admonition-title">I&#39;m title!</p>
-<p>biu biu biu.</p>
-<details class="admonition note"><summary class="admonition-title">note</summary>
-  <p>biu biu biu.</p>
-</details>
-<div class="admonition example">
-  <p>Without title.</p>
-</div>
-</div>
+      <h2 id="usage">Usage</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -238,26 +227,32 @@ We&rsquo;ll start with creating a new site with a very basic template.
 </span><span class="lnt">10
 </span><span class="lnt">11
 </span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{% admonition note &#34;I&#39;m title!&#34; false %}}
-</span></span><span class="line"><span class="cl">biu biu biu.
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">st=&gt;start: Start|past:&gt;http://www.google.com[blank]
+</span></span><span class="line"><span class="cl">e=&gt;end: End:&gt;http://www.google.com
+</span></span><span class="line"><span class="cl">op1=&gt;operation: My Operation|past
+</span></span><span class="line"><span class="cl">op2=&gt;operation: Stuff|current
+</span></span><span class="line"><span class="cl">sub1=&gt;subroutine: My Subroutine|invalid
+</span></span><span class="line"><span class="cl">cond=&gt;condition: Yes
+</span></span><span class="line"><span class="cl">or No?|approved:&gt;http://www.google.com
+</span></span><span class="line"><span class="cl">c2=&gt;condition: Good idea|rejected
+</span></span><span class="line"><span class="cl">io=&gt;inputoutput: catch something...|request
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">{{% admonition type=&#34;note&#34; title=&#34;note&#34; details=&#34;true&#34; %}}
-</span></span><span class="line"><span class="cl">biu biu biu.
-</span></span><span class="line"><span class="cl">{{% /admonition %}}
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">{{% admonition example %}}
-</span></span><span class="line"><span class="cl">Without title.
-</span></span><span class="line"><span class="cl">{{% /admonition %}}
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">{{% /admonition %}}
+</span></span><span class="line"><span class="cl">st-&gt;op1(right)-&gt;cond
+</span></span><span class="line"><span class="cl">cond(yes, right)-&gt;c2
+</span></span><span class="line"><span class="cl">cond(no)-&gt;sub1(left)-&gt;op1
+</span></span><span class="line"><span class="cl">c2(yes)-&gt;io-&gt;e
+</span></span><span class="line"><span class="cl">c2(no)-&gt;op2-&gt;e
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
     </div>
     <div class="read-more">
-      <a href="/post/shortcodes/" class="read-more-link">阅读更多</a>
+      <a href="/post/js-flowchart-diagrams/" class="read-more-link">阅读更多</a>
     </div>
   </div>
 </article>
